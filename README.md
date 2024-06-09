@@ -17,6 +17,8 @@ Luego, navega a la carpeta funcional del proyecto clonado (pagina-web).
 Paso 4: Dentro de la carpeta pagina-web, ejecuta el siguiente comando en la terminal para instalar las bibliotecas necesarias:
 npm install react-scripts react-slick slick-carousel --save
 
+Espera unos segundos a que se instalen las bibliotecas.
+
 Paso 5: Una vez instaladas las bibliotecas, ejecuta el siguiente comando para iniciar el proyecto:
 npm start
 
