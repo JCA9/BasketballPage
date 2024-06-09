@@ -14,9 +14,9 @@ Paso 3.- Una vez instalado Git Bash, dirígete a una carpeta donde desees clonar
 
 git clone https://github.com/JCA9/BasketballPage.git
 
-Pao 4.- Luego, navega a la carpeta funcional del proyecto clonado (pagina-web) con el siguiente comando: 
+Pao 4.- Luego, si ya te encuentras dentro de la carpeta "BasketballPage", navega a la carpeta funcional del proyecto clonado "pagina-web" con el siguiente comando: 
 
-cd BasketballPage/pagina-web
+cd pagina-web
 
 Paso 5.- Dentro de la carpeta pagina-web, ejecuta el siguiente comando en la terminal para instalar las bibliotecas necesarias:
 
