@@ -11,3 +11,787 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  height: 132px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 35px;
+}
+
+.header .logo h3{
+  font-size: 35px;
+  margin-left: 100px;
+  text-transform: uppercase;
+}
+
+.header .logo span{
+  color: orange;
+}
+
+.header nav{
+  flex-grow: 1;
+}
+
+.header nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  height: 132px;
+}
+
+.header li{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header li a{
+  color: black;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: all 300ms;
+}
+
+.header .active,
+.header a:hover{
+  color: black;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+/* Inicio */
+/* Slidebar */
+
+.slider img{
+  width: 100%;
+  height: 500px;
+}
+
+/* Contenido Inicio*/
+
+.content-inicio{
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.content-inicio section{
+}
+
+.title{
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.seccion1,.seccion3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.info-seccion1:hover,.info-seccion2:hover,.info-seccion3:hover,.info-seccion4:hover {
+  width: 500px;
+}
+
+
+.img-seccion1{
+  background-image: url(img/Inicio1.jpg);
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  padding: 50px;
+}
+
+.info-seccion1,.info-seccion2,.info-seccion3,.info-seccion4{
+  width: 350px;
+  height: 200px;
+  padding: 50px 50px;
+  background-color: #037bc0;
+  color: white;
+  transition: 300ms;
+}
+
+
+.seccion2,.seccion4{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+
+.img-seccion2{
+  background-image: url(img/Inicio2.jpg);
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  padding: 50px;
+}
+
+.img-seccion3{
+  background-image: url(img/Inicio3.jpg);
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  padding: 50px;
+}
+
+.img-seccion4{
+  background-image: url(img/Inicio4.jpg);
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  padding: 50px;
+}
+ 
+
+/* Contenido Historia*/
+
+.historia1{
+  height: 720px;
+  background-image: linear-gradient(rgb(5,7,12,0.3),rgb(5,7,12,0.5)),url(img/HistoriaIntro.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+  font-size: 40px; 
+}
+
+.historia1-2, .historia3-2{
+  height: 400px;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  transition: 300ms;
+
+}
+
+.historia2-2{
+  height: 400px;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  flex-direction: row-reverse;
+  transition: 300ms;
+}
+
+.historia3-2:hover,.historia1-2:hover,.historia2-2:hover{
+  height: 500px;
+}
+
+.historia1-2-datos,.historia3-2-datos{
+  flex-grow: 1;
+  color: white;
+  padding: 50px;
+}
+
+.historia1-2-datos h3,.historia3-2-datos h3,.historia2-2-datos h3{
+  font-size: 35px;
+}
+
+.historia2-2-datos{
+  padding: 50px;
+  text-align: right;
+  direction: rtl;
+}
+
+.historia2-2-datos{
+  flex-grow: 1;
+  color: white;
+  text-align: end;
+}
+
+.historia2{
+  height: 720px;
+  background-image: linear-gradient(rgb(5,7,12,0.2),rgb(5,7,12,0.2)),url(img/Historia1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historia3{
+  height: 720px;
+  background-image: linear-gradient(rgb(5,7,12,0.2),rgb(5,7,12,0.2)),url(img/Historia2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.historia4{
+  height: 720px;
+  background-image: linear-gradient(rgb(5,7,12,0.2),rgb(5,7,12,0.2)),url(img/Historia3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Contenido Equipos*/
+.fondoEquipos{
+  background-color: rgb(29, 29, 29);
+}
+
+.formatoEquipos{
+  padding: 20px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.formatoEquipos section{
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.formatoEquipos h2{
+  color: white;
+  font-size: 40px;
+}
+
+.equipo1,.equipo2,.equipo3,.equipo4,.equipo5,.equipo6,.equipo7,.equipo8,.equipo9,.equipo10{
+  margin: 40px 0;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  border-radius: 30px;
+  transition: 300ms;
+}
+
+.equipo1:hover,.equipo2:hover,.equipo3:hover,.equipo4:hover,.equipo5:hover,.equipo6:hover,.equipo7:hover,.equipo8:hover,.equipo9:hover,.equipo10:hover{
+  height: 300px;
+}
+
+.equipo1{
+  color: white;
+  background-color: rgb(58, 112, 33);
+}
+
+.equipo1 img:hover,.equipo2 img:hover,.equipo3 img:hover,.equipo4 img:hover,.equipo5 img:hover,.equipo6 img:hover,.equipo7 img:hover,.equipo8 img:hover,.equipo9 img:hover,.equipo10 img:hover{
+  width: 300px;
+}
+
+.equipo1 div,.equipo2 div,.equipo3 div,.equipo4 div,.equipo5 div,.equipo6 div,.equipo7 div,.equipo8 div,.equipo9 div,.equipo10 div{
+  padding-left: 50px;
+}
+
+.equipo2{
+  background-color: orange;
+}
+
+.equipo3{
+  background-color: rgb(131, 19, 19);
+  color: white;
+}
+.equipo4{
+  background-color: rgb(129, 156, 196);
+}
+.equipo5{
+  color: white;
+  background-color: rgb(5, 1, 1);
+}
+.equipo6{
+  background-color: rgb(135, 185, 16);
+}
+.equipo7{
+  color: white;
+  background-color: rgb(36, 2, 1);
+}
+.equipo8{
+  color: white;
+  background-color: rgb(59, 11, 9);
+}
+.equipo9{
+  background-color: rgb(42, 152, 173);
+}
+.equipo10{
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Contenido Jugadores*/
+
+.fondoJugadores{
+  background-color: rgb(29, 29, 29);
+}
+
+.formatoJugadores{
+  padding: 20px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.formatoJugadores h2{
+  color: white;
+}
+
+.jugadores{
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5,1fr);
+}
+
+.jugadores section{
+  border-radius: 30px;
+}
+
+.jugador1,.jugador2,.jugador3,.jugador4,.jugador5,.jugador6,.jugador7,.jugador8,.jugador9,.jugador10{
+  background-color: white;
+  margin: 30px 30px;
+  justify-self: center;
+  align-content: center;
+  transition: 300ms;
+}
+
+
+.jugadores section .fotojg1{
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.info-jg1{
+  display: flex;
+}
+
+
+.info-jg1 img{
+  width: 90px;
+  height: auto;
+}
+
+.info-jg1 div{
+  padding-left: 10px;
+}
+
+
+/* Contenido Contacto*/
+
+.formulario{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"]{
+  padding: 15px;
+  display: block;
+  margin-top: 25px;
+  width: 250px;
+}
+
+input[type="submit"]{
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  margin-top: 20px;
+  background-color: orange;
+  text-decoration: none;
+  transition: all 300ms;
+  width: 280px;
+}
+
+input[type="submit"]:hover{
+  background-color: rgb(26,137,26);
+  color: white;
+}
+
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.footer-section p a {
+  color: black;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .footer-section {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+.footer-section p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  padding: 5px;
+}
+
+
+/* Otra Cosa */
+
+.layout{
+  width: 100%;
+  margin: auto;
+}
+
+.footer{
+  min-height: 40px;
+  line-height: 5px;
+  color: #444;
+  text-align: center;
+  font-size: 14px;
+  background: #f5f5f5;
+  padding-top: 45px;
+}
+
+.content{
+min-width: 500px;
+margin-bottom: 100px;
+}
+
+/* Para Tablet 1385 */
+
+@media only screen and (max-width: 1385px) {
+  .header {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  
+  .header .logo h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .header nav {
+    width: 100%;
+    margin-top: 20px;
+    order: -1;
+  }
+  
+  .header nav ul {
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+
+  .historia1-2m.historia2-2,.historia3-2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .historia1-2:hover,.historia2-2:hover,.historia3-2:hover{
+    height: 100%;
+  }
+
+  .historia1-2 img, .historia2-2 img, .historia3-2 img{
+    width: 0px;
+    height: 0px;
+  }
+  
+  .jugadores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  
+  .jugadores section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .jugadores section .fotojg1{
+    border-bottom: none;
+    border-right: 1px solid black;
+  }
+
+  .jugadores section .info-jg1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .jugadores section .info-jg1 img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .jugadores section .info-jg1 h3{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .formulario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"] {
+    width: calc(100% - 30px);
+  }
+
+  .container-footer h3, .container-footer p, .container-footer a{
+    line-height: 1.5;
+  }
+
+    .content-inicio section{
+    width: 700px;
+  }
+
+}
+
+/* Para Tablet 768px*/
+@media only screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  
+  .header .logo h3 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .header nav {
+    width: 100%;
+    margin-top: 20px;
+    order: -1;
+  }
+  
+  .header nav ul {
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .content-inicio {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content-inicio .title{
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 40px;
+  }
+  
+  .seccion1,
+  .seccion3 {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .seccion1 .img-seccion1,
+  .seccion3 .img-seccion3 {
+    width: auto;
+    height: 300px;
+  }
+  
+  .info-seccion1,
+  .info-seccion2,
+  .info-seccion3,
+  .info-seccion4 {
+    width: 100%;
+  }
+  
+  .seccion2,
+  .seccion4 {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .img-seccion2,
+  .img-seccion4 {
+    width: auto;
+    height: 300px;
+  }
+  
+  .historia1,
+  .historia2,
+  .historia3,
+  .historia4 {
+    height: 500px;
+    width: auto;
+  }
+  
+  .historia1-2,
+  .historia3-2,
+  .historia2-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .historia1-2 img,.historia2-2 img,.historia3-2 img{
+    height: 200px;
+    width: 300px;
+  }
+  .historia1-2:hover{
+    height: 600px;
+  }
+
+  .historia2-2:hover{
+    height: 500px;
+  }
+
+  .historia3-2:hover{
+    height: 550px;
+  }
+
+  
+  .historia1-2-datos,
+  .historia3-2-datos,
+  .historia2-2-datos {
+    padding: 5px;
+  }
+  
+  .formatoEquipos section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 350px;
+  }
+
+  .formatoEquipos section:hover {
+    height: 350px;
+  }
+
+  .formatoEquipos section img{
+    width: 100px;
+    height: 100px;
+  }
+
+  
+  .formatoEquipos section img:hover{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .formatoEquipos h2 {
+    font-size: 30px;
+  }
+  
+  .jugadores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  
+  .jugadores section {
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"] {
+    width: calc(100% - 30px);
+  }
+
+  .content-inicio p,.content-inicio h2{
+    width: 600px;
+  }
+
+}
+
+/* Para Tablet 615 */
+
+@media only screen and (max-width: 615px) {
+
+  .content-inicio p,.content-inicio h2{
+    width: 500px;
+  }
+
+  .container-footer h3, .container-footer p, .container-footer a{
+    line-height: 1.5;
+  }
+}
