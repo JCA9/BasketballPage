@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Prueba Técnica - BasketballPage
+Prueba técnica becario desarrollo web - Cadenas Acevedo Jesús Alejandro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Descripción de la Pagina:
+Página web que presenta datos curiosos sobre el basketball, la historia de este fascinante deporte, secciones dedicadas a los mejores equipos y jugadores actuales, y un formulario de contacto.
 
-## Available Scripts
+Indicaciones de instalación del proyecto:
 
-In the project directory, you can run:
+Paso 1.- Instalar Node.js en el equipo de cómputo.
 
-### `npm start`
+Paso 2.- Instalar Git Bash para clonar el proyecto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Paso 3.- Una vez instalado Git Bash, dirígete a una carpeta donde desees clonar el proyecto. Abre Git Bash en la ruta de esa carpeta y ejecuta el siguiente comando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/JCA9/BasketballPage.git
 
-### `npm test`
+Pao 4.- Luego, navega a la carpeta funcional del proyecto clonado (pagina-web) con el siguiente comando: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd BasketballPage/pagina-web
 
-### `npm run build`
+Paso 5.- Dentro de la carpeta pagina-web, ejecuta el siguiente comando en la terminal para instalar las bibliotecas necesarias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install react-scripts react-slick slick-carousel --save
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Espera unos segundos a que se instalen las bibliotecas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Paso 6.- Una vez instaladas las bibliotecas, ejecuta el siguiente comando para iniciar el proyecto:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Paso 7.- Si todo ha salido correctamente, la página web debería ser visible y funcional.
